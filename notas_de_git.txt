@@ -26,6 +26,8 @@ Para cambiar el nombre del repositorio remoto configurado en el repositorio loca
 
 Para ayuda  >git --help
 
+Para actualizar el repositorio local desde el repositorio remoto se usa  >git pull https://github.com/torresriquelme/pruebaGit
+
 
 
 
