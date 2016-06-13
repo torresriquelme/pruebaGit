@@ -2,7 +2,8 @@ Notas de Git:
 
 Para crear un repositorio de Git: >git init     --> Esto crea una carpeta oculta .git que será el repositorio
 
-Para añadir un archivo con cambios al repositorio:  >git add nombre_del_archivo.extension  
+Para añadir un archivo con cambios al repositorio:  >git add nombre_del_archivo.extension 
+													>git add .   --> se añaden todas los archivos, carpetas y subcarpetas que tenga el repositorio local 
 
 Para saber el estatus (hay un archivo en el repositorio pendiente por commit) >git status     --> Se obtiene la siguiente respuesta:
 
