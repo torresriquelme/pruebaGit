@@ -1,0 +1,22 @@
+Notas de Git:
+
+Para crear un repositorio de Git: >git init     --> Esto crea una carpeta oculta .git que será el repositorio
+
+Para añadir un archivo con cambios al repositorio:  >git add nombre_del_archivo.extension  
+
+Para saber el estatus (hay un archivo en el repositorio pendiente por commit) >git status     --> Se obtiene la siguiente respuesta:
+
+Para hacer commit  >git commit -m "Comentario del commit"
+
+Para listar las actividades realizadas >git log  : Para que el log aparezca con una sola linea para cada registro se usa el comando >git log --oneline
+
+Para configurar el Username  >git config --global user.name "Tu nombre aqui"
+
+Para configurar el email  >git config --gloal user.email  "tu email aqui"
+
+Para asociar el repositorio local con un repositorio remoto:  >git remote add remoto https://github.com/torresriquelme/pruebaGit.git   --> "remoto" en el comando es un alias y el url lo da Github cuando se crea el 
+repositorio en la cuenta del usuario. Este comando no arroja ningun resultado, en ese caso es que se ejecutó con éxito.
+
+Para visualizar los repositorios remotos quetenemos configurados en el repositorio local se usa   >git remote -v  --> la -v es de visualizar
+
+Para enviar los archivos desde el repositorio local al remoto se usa el comando  >git push remoto master    --> "remoto" es el alias que se colocó cuando se configuró el repositorio remoto en el local
