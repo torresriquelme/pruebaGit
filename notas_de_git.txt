@@ -50,3 +50,7 @@ Guía rápida para trabajar con Github / Git
 	c.- git add <nombre>
 	d.- git commit -m "Mensaje"
 	e.- git push origin master
+
+
+
+	Nota: Este es un comentario incluido desde otro computador al proyecto
