@@ -19,4 +19,33 @@ repositorio en la cuenta del usuario. Este comando no arroja ningun resultado, e
 
 Para visualizar los repositorios remotos quetenemos configurados en el repositorio local se usa   >git remote -v  --> la -v es de visualizar
 
-Para enviar los archivos desde el repositorio local al remoto se usa el comando  >git push remoto master    --> "remoto" es el alias que se colocó cuando se configuró el repositorio remoto en el local
+Para enviar los archivos desde el repositorio local al remoto se usa el comando  >git push remoto master    --> "remoto" es el alias que se colocó cuando se configuró el repositorio remoto en el local y "master" es la rama en el repositorio remoto a la cual se quiere subir.
+
+Para cambiar el nombre del repositorio remoto configurado en el repositorio local se usa este comando  >git remote rename nombreactual nombrenuevo
+
+Para ayuda  >git --help
+
+
+
+
+
+
+Guía rápida para trabajar con Github / Git
+
+1.- Trabajando en Local
+	Quiero subir los cambios a un repositorio remoto (Github)
+
+	a.- Crear un usuario en Github.com
+	b.- Creado el proyecto (repositorio remoto) en Github
+	c.- Vincular el repositorio remoto de Github con el repositorio Local
+			git remote add remoto https://github.com/torresriquelme/nombre_del_proyecto.git
+			git remote -v
+	d.- Empujar (push) mis cambios locales al remoto dado de alta en el paso c
+			git push remoto master
+
+2.-Primero creo el repositorio remoto en Github y luego quiero trabajar en local
+	a.- Creado el proyecto en Github
+	b.- Ir a local: git clone <url-github>  --> crea el repositorio remoto en la máquina local con el nombre origin
+	c.- git add <nombre>
+	d.- git commit -m "Mensaje"
+	e.- git push origin master
